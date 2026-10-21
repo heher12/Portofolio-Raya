@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Raya — Creative Portfolio | Video Editing, Content Creation & Graphic Design">
+  <title>Raya — Creative Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="loader" class="loader">
+  <div class="loader-inner">
+    <div class="loader-logo">R</div>
+    <div class="loader-line"><span></span></div>
+    <p>RAYA / CREATIVE PORTFOLIO</p>
+  </div>
+</div>
+
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+
+<div class="noise"></div>
+
+<header class="navbar">
+  <a href="#home" class="brand magnetic">
+    <span class="brand-mark">R</span>
+    <span>RAYA<span class="accent-dot">.</span></span>
+  </a>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <a class="availability magnetic" href="#contact">
+    <span class="status"></span> Available for work
+  </a>
+
+  <button class="menu-btn" aria-label="Menu">
+    <span></span><span></span>
+  </button>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <div class="hero-top reveal">
+      <span>01 / 04</span>
+      <span>BASED IN INDONESIA</span>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-copy">
+        <p class="eyebrow reveal">VIDEO EDITOR — CONTENT CREATOR — DESIGNER</p>
+        <h1 class="reveal">
+          Portofolio<br>
+          <span>Herlina Norraya</span>
+        </h1>
+        <p class="hero-description reveal">
+          Saya Raya — membuat video, konten digital, dan desain
+          yang mengubah ide sederhana menjadi visual yang punya cerita.
+        </p>
+
+        <div class="hero-cta reveal">
+          <a href="#work" class="circle-cta magnetic">
+            <span>Explore<br>my work</span>
+            <b>↘</b>
+          </a>
+          <span class="scroll-note">SCROLL TO<br>DISCOVER</span>
+        </div>
+      </div>
+
+      <div class="hero-art reveal">
+        <div class="art-orbit orbit-one"></div>
+        <div class="art-orbit orbit-two"></div>
+        <div class="art-core">
+          <span>R</span>
+        </div>
+        <div class="floating-card card-a">
+          <small>01</small>
+          <strong>VIDEO<br>EDITING</strong>
+        </div>
+        <div class="floating-card card-b">
+          <small>02</small>
+          <strong>CONTENT<br>CREATION</strong>
+        </div>
+        <div class="floating-card card-c">
+          <small>03</small>
+          <strong>GRAPHIC<br>DESIGN</strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-bottom reveal">
+      <span>PORTFOLIO / 2026</span>
+      <span class="scroll-arrow">↓</span>
+      <span>LET'S CREATE SOMETHING</span>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <div class="section-meta reveal">
+      <span>02 / 04</span>
+      <span>ABOUT ME</span>
+    </div>
+
+    <div class="about-layout">
+      <div class="about-title reveal">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2>Perjalanan yang<br><em>membentuk karya.</em></h2>
+      </div>
+
+      <div class="about-copy reveal">
+        <p class="large">
+          Bisa dipanggil Raya. Saya lulusan SMK Negeri 2 Banjarmasin
+          jurusan Pengembangan Perangkat Lunak dan Gim (PPLG).
+        </p>
+        <p>
+          Saya memiliki minat dalam pemrograman, desain grafis, dan konten digital,
+          serta pengalaman PKL dalam pembuatan desain, konten, operasional,
+          dan pelayanan pelanggan.
+        </p>
+        <p>
+          Saya pribadi yang bertanggung jawab, mudah beradaptasi,
+          dan selalu terbuka untuk belajar serta berkembang.
+        </p>
+
+        <div class="about-facts">
+          <div><b>2025—2026</b><span>Experience</span></div>
+          <div><b>Video</b><span>Editing</span></div>
+          <div><b>Design</b><span>Visual Content</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="section work">
+    <div class="section-meta reveal">
+      <span>03 / 04</span>
+      <span>SELECTED WORKS</span>
+    </div>
+
+    <div class="work-heading reveal">
+      <h2>Selected <em>projects.</em></h2>
+      <p>Beberapa karya video dan konten yang pernah saya kerjakan.</p>
+    </div>
+
+    <div class="filters reveal">
+      <button class="filter active" data-filter="all">All</button>
+      <button class="filter" data-filter="jamkrida">PT Jamkrida Kalsel</button>
+      <button class="filter" data-filter="kula digital">Kula Digital</button>
+    </div>
+
+    <div id="projectList" class="project-list">
+      <article class="project reveal visible" data-id="01" data-filter="jamkrida kalsel" data-category="PT JAMKRIDA KALSEL" data-title="Video HUT ke-12 PT Jamkrida Kalsel" data-desc="Video perayaan perusahaan yang menggabungkan video, teks, audio, dan elemen visual." data-video="proyek1.mp4" data-link="">
+        <span class="project-number">01</span>
+        <div>
+          <h3 class="project-title">Video HUT ke-12 PT Jamkrida Kalsel</h3>
+          <p class="project-meta">PT JAMKRIDA KALSEL</p>
+        </div>
+
+        <div class="project-preview" data-id="01" role="button" tabindex="0" aria-label="Lihat proyek: Video HUT ke-12 PT Jamkrida Kalsel">
+          <div class="project-placeholder">
+            <span>RAYA / 01</span>
+            <strong>PT JAMKRIDA KALSEL</strong>
+            <small>Video HUT ke-12 PT Jamkrida Kalsel</small>
+          </div>
+          <video muted loop playsinline preload="metadata" src="proyek1.mp4"></video>
+        </div>
+
+        <span class="project-arrow">↗</span>
+      </article>
+
+      <article class="project reveal visible" data-id="02" data-filter="jamkrida kalsel" data-category="PT JAMKRIDA KALSEL" data-title="Proyek Konten yang Pernah Dikerjakan" data-desc="Kumpulan karya konten yang mencakup proses perekaman, editing video, hingga pengembangan berbagai konsep kreatif.
+       Setiap konten dibuat dengan memperhatikan ide, visual, dan penyampaian pesan agar menarik serta sesuai dengan tujuan konten.">
+        <span class="project-number">02</span>
+        <div>
+          <h3 class="project-title">Konten Pada Saat Magang</h3>
+          <p class="project-meta">PT JAMKRIDA KALSEL</p>
+        </div>
+
+        <div class="project-preview" data-id="02" role="button" tabindex="0" aria-label="Lihat proyek: Proyek Konten yang Pernah Dikerjakan">
+          <div class="project-placeholder">
+            <span>RAYA / 02</span>
+            <strong>PT JAMKRIDA KALSEL</strong>
+            <small>Konten Pada Saat Magang</small>
+          </div>
+          <video muted loop playsinline preload="metadata" src="konten1.mp4"></video>
+        </div>
+
+        <span class="project-arrow">↗</span>
+      </article>
+
+      <article class="project reveal visible" data-id="03" data-filter="kula digital" data-category="KULA DIGITAL" data-title="Konten Promosi Kula Digital" data-desc="Konten promosi yang dikerjakan bersama tim, 
+      dengan tanggung jawab pada proses pengambilan gambar dan editing video oleh saya." data-video="">
+        <span class="project-number">03</span>
+        <div>
+          <h3 class="project-title">Konten Promosi Kula Digital</h3>
+          <p class="project-meta">KULA DIGITAL</p>
+        </div>
+
+        <div class="project-preview" data-id="03" role="button" tabindex="0" aria-label="Lihat proyek: Konten Promosi Kula Digital">
+          <div class="project-placeholder">
+            <span>RAYA / 03</span>
+            <strong>KULA DIGITAL</strong>
+            <small>Konten Promosi Kula Digital</small>
+          </div>
+          <video muted loop playsinline preload="metadata" src="kula1.mp4"></video>
+        </div>
+
+        <span class="project-arrow">↗</span>
+      </article>
+    </div>
+  </section>
+
+  <section id="skills" class="section skills">
+    <div class="section-meta reveal">
+      <span>04 / 04</span>
+      <span>EXPERTISE</span>
+    </div>
+
+    <div class="skills-heading reveal">
+      <h2>What I <em>do.</em></h2>
+      <p>Ide, visual, dan cerita — saya bantu merangkainya menjadi konten digital yang menarik.</p>
+    </div>
+
+    <div class="skills-list">
+      <div class="skill-row reveal">
+        <div class="skill-row-top"><span>01</span><span>POST-PRODUCTION</span></div>
+        <h3>Video Editing</h3>
+        <p>Mengolah footage, audio, teks, dan transisi menjadi video yang menarik, terstruktur, dan komunikatif.</p>
+        <div class="skill-tags"><span>Cutting</span><span>Audio</span><span>Storytelling</span></div>
+      </div>
+      <div class="skill-row reveal">
+        <div class="skill-row-top"><span>02</span><span>IDEA TO CONTENT</span></div>
+        <h3>Content Creation</h3>
+        <p>Berkolaborasi dalam pembuatan konten promosi, dengan fokus pada pengambilan gambar dan proses editing video.</p>
+        <div class="skill-tags"><span>Concept</span><span>Promotion</span><span>Documentation</span></div>
+      </div>
+      <div class="skill-row reveal">
+        <div class="skill-row-top"><span>03</span><span>VISUAL DESIGN</span></div>
+        <h3>Graphic Design</h3>
+        <p>Merancang desain visual yang menarik dan komunikatif sesuai kebutuhan promosi maupun media digital.</p>
+        <div class="skill-tags"><span>Canva</span><span>Figma</span><span>Layout</span></div>
+      </div>
+      <div class="skill-row reveal">
+        <div class="skill-row-top"><span>04</span><span>WEB FUNDAMENTALS</span></div>
+        <h3>UI / Web Basic</h3>
+        <p>Mengembangkan rancangan antarmuka web dengan memperhatikan struktur, tata letak, dan kenyamanan pengguna.</p>
+        <div class="skill-tags"><span>HTML</span><span>CSS</span><span>Wireframe</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="contact-bg-text">LET'S<br>CREATE</div>
+    <div class="contact-content reveal">
+      <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+      <h2>Let’s create and<br><em>make something great.</em></h2>
+      <a class="contact-email magnetic" href="mailto:hrlnayya1@gmail.com">
+        hrlnayya1@gmail.com <span>↗</span>
+      </a>
+      <a class="contact-whatsapp magnetic" href="https://wa.me/6283191068603?text=Halo%20Raya%2C%20saya%20tertarik%20dengan%20portfolio%20kamu." target="_blank" rel="noopener noreferrer">
+        Chat WhatsApp <span>+62 831-9106-8603 ↗</span>
+      </a>
+      <div class="contact-socials">
+        <a href="https://www.instagram.com/cmrayaa?utm_source=ig_web_button_share_sheet&dlrf=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener">Instagram ↗</a>
+        <span>•</span>
+        <span>@cmrayaa</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <span>© 2026 RAYA</span>
+  <span>VIDEO / DESIGN / CONTENT</span>
+  <span>MADE WITH INTENTION.</span>
+</footer>
+
+<div id="projectModal" class="modal" aria-hidden="true">
+  <div class="modal-bg" data-close></div>
+  <div class="modal-panel">
+    <button class="modal-close magnetic" data-close>×</button>
+    <div class="modal-media">
+      <video id="modalVideo" controls playsinline></video>
+      <img id="modalImage" alt="Foto proyek" hidden>
+      <div id="modalEmpty">
+        <span>R</span>
+        <p>Preview video tidak dapat ditampilkan</p>
+        <small>Periksa file MP4, path, dan format video yang didukung browser.</small>
+      </div>
+    </div>
+    <div class="modal-details">
+      <span id="modalCategory"></span>
+      <h3 id="modalTitle"></h3>
+      <p id="modalDescription"></p>
+      <a id="modalInstagram" href="https://www.instagram.com/veluria_digital_invitation?utm_source=ig_web_button_share_sheet&psln=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" hidden>Contoh desain saya lebih lengkapnya di IG Veluria Studio ↗</a>
+      <div id="project02Playlist" class="modal-playlist" aria-label="Pilih video proyek 2">
+        <button class="modal-video-option active" type="button" data-media-type="video" data-media-src="konten1.mp4">Video 1</button>
+        <button class="modal-video-option" type="button" data-media-type="video" data-media-src="konten2.mp4">Video 2</button>
+        <button class="modal-video-option" type="button" data-media-type="video" data-media-src="konten3.mp4">Video 3</button>
+        <button class="modal-video-option" type="button" data-media-type="video" data-media-src="konten4.mp4">Video 4</button>
+        <button class="modal-video-option" type="button" data-media-type="video" data-media-src="konten5.mp4">Video 5</button>
+        <button class="modal-video-option" type="button" data-media-type="video" data-media-src="konten6.mp4">Video 6</button>
+      </div>
+      <div id="project03Playlist" class="modal-playlist" aria-label="Pilih media proyek 3">
+        <button class="modal-video-option active" type="button" data-media-type="video" data-media-src="kula1.mp4">Video 1</button>
+        <button class="modal-video-option" type="button" data-media-type="video" data-media-src="kula2.mp4">Video 2</button>
+        <button class="modal-video-option" type="button" data-media-type="video" data-media-src="kula3.mp4">Video 3</button>
+        <button class="modal-video-option" type="button" data-media-type="video" data-media-src="kula4.mp4">Video 4</button>
+      </div>
+      <a id="modalLink" href="#" target="_blank" rel="noopener">Open project link ↗</a>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
